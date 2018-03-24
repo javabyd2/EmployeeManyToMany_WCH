@@ -23,7 +23,7 @@
             false
         </property>
         <property name="hibernate.connection.password">
-
+            sda
         </property>
         <property name="hibernate.show.sql">true</property>
         <property name="format_sql">true</property>

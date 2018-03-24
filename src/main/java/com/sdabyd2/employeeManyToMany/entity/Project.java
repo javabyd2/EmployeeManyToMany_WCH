@@ -14,6 +14,19 @@ public class Project {
     @Column(name = "title",length = 50)
     private String title;
 
+    public int getProjetId() {
+        return projetId;
+    }
 
+    public void setProjetId(int projetId) {
+        this.projetId = projetId;
+    }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
 }
